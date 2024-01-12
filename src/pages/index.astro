@@ -1,0 +1,238 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+
+<Layout title="SEO Freelancer Stuttgart (SEO Beratung Stuttgart)">
+	<main>
+		
+		<div class="main_pic">
+		
+		</div>
+		<h1>SEO <span class="text-gradient">Freelancer Stuttgart</span></h1>
+		
+		<span>Hey there! I'm Lukasz, your go-to guy for everything SEO in the vibrant city of Barcelona. You know how the local scene here buzzes with energy, right? Well, that's exactly what I bring to the digital world. My mission? To skyrocket your local business with my SEO local barcelona service to the top of search engine results.</span>
+		<p class="instructions">
+			I make your business the star of Barcelona's online world. With a deep understanding of Barcelona's unique market and a toolbox full of SEO tricks, I'm here to connect you with the right crowd. So, let's make your local business shine online together! 🌟📈
+		</p>
+
+
+	
+		
+
+		<h2>Local SEO <span class="text-gradient" style="text-align: left; display: inline-block;">for the whole Barcelona Area</span></h2>
+
+		<p>My SEO local services extend throughout the Barcelona area (including Girona, Tarragona, Montserrat, Santa Susana, Sitges, Vilanova i la Geltrú). Since I am a SEO Freelancer, I very often meet my lovely customers in Sant Pere, Santa Caterina i la Ribera, because it is not so crowded like Barcelona’s touristic parts -la rambla-, especially in the summer months. However I am also able to work remotely from all parts of Barcelona.</p>
+
+
+		<h2>My Local SEO <span class="text-gradient" style="text-align: left; display: inline-block;">Service</span></h2>
+
+		<ul role="list" class="link-card-grid">
+			<Card
+				title="SEO Freelancer Stuttgart"
+				body="Local on-page SEO is all about optimizing individual web pages to rank higher and earn more relevant traffic in local search engines. It's about making your site super appealing and easy to find for local folks searching for what you offer."
+			/>
+			<Card
+			
+				title="SEO Beratung Stuttgart"
+				body="Local off-page SEO is the art of boosting your website's reputation and visibility outside your own site. It's about getting local buzz, like backlinks and social media mentions, to make your business a big deal in the local scene."
+			/>
+
+		</ul>
+
+		<p>
+			You're probably wondering how to <strong>get your business noticed</strong> in this bustling city, right? 
+			Well, you're in the right place.
+		</p>
+
+	
+		
+
+		<h2>Schick mir direkt eine Nachricht</h2>
+		<p>When my local SEO Service for Barcelona sounds about right for you, send me a message and I'll get abck to you!</p>
+		<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<textarea name="message" placeholder="Your Message" required></textarea>
+			<button type="submit">Send</button>
+	   </form>
+
+
+	</main>
+
+	<footer>
+
+		<span>Copyright 2024 &copy; SEO Beratung Stuttgart</span>
+		
+
+
+	</footer>
+
+
+</Layout>
+
+
+
+<style>
+
+	body, html {
+		overflow-x: hidden;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer a {
+		display: block;
+		color: white;
+		margin: 22px;
+	}
+
+	.main_pic {
+		text-align: center;
+	}
+
+	#localseophoto {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+
+	footer {
+		color: white;
+	}
+
+
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	.astro-a {
+		position: absolute;
+		top: 98px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 1200px;
+		height: auto;
+		z-index: -1;
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 24px;
+		margin-top: 12px;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+
+	img	{
+		max-width: 100%;
+	}
+
+	span {
+		text-align: center;
+		display: block;
+	}
+
+
+	/* Overall form styling */
+form {
+    max-width: 100%; /* Sets a maximum width */
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px; /* Adds some space inside the form */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"] {
+    width: 97%; /* Full width */
+    padding: 10px; /* Comfortable text padding */
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+	font-size: 18px;
+	font-family: system-ui, sans-serif;
+}
+
+
+
+/* Styling for the submit button */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Same padding as input fields */
+    background-color: #8e44eb; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor changes to pointer */
+    font-size: 16px; /* Larger text size */
+}
+
+/* Change button style on hover */
+button:hover {
+    background-color: #ba91f2; /* Slightly darker green on hover */
+}
+
+/* Styling for the textarea */
+textarea {
+	font-size: 18px;
+    width: 97%; /* Full width to match the input fields */
+    padding: 10px; /* Comfortable padding */
+    margin-bottom: 15px; /* Space below the textarea */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    min-height: 100px; /* Minimum height */
+    resize: vertical; /* Allow vertical resizing only */
+	font-family: system-ui, sans-serif;
+}
+
+/* Change textarea style on focus */
+textarea:focus {
+    border-color: #4CAF50; /* Highlighted border color */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
+}
+</style>
