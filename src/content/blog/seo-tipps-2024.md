@@ -1,6 +1,6 @@
 ---
 title: 'SEO Tipps für 2024 - SEO Freelancer Stuttgart'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
+description: ''
 pubDate: 'Mar 01 2024'
 heroImage: '/blog-placeholder-2.jpg'
 ---
