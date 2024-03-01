@@ -5,7 +5,7 @@ pubDate: 'Mar 01 2024'
 heroImage: '/blog-placeholder-2.jpg'
 ---
 
-Es ist kein Geheimnis, dass 2024 das dominierende Thema die Anpassung der SEO-Strategien an die KI-Landschaft sein wird. Ich, als leidenschaftlicher SEO-Experte, teile heute meine besten Tipps mit euch, um in dieser neuen Ära erfolgreich zu sein.
+Es ist kein Geheimnis, dass 2024 das dominierende Thema die Anpassung der SEO-Strategien an die KI-Landschaft sein wird. Ich, als leidenschaftlicher <a href="/">SEO-Experte aus Stuttgart</a>, teile heute meine besten Tipps mit euch, um in dieser neuen Ära erfolgreich zu sein.
 
 Wer in den letzten anderthalb Jahren die Entwicklungen in der SEO- und Tech-Branche verfolgt hat, dem wird nicht entgangen sein, dass KI ein heißes Thema ist.
 
