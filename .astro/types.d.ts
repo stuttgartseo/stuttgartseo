@@ -143,6 +143,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"technisches-seo-audit.md": {
+	id: "technisches-seo-audit.md";
+  slug: "technisches-seo-audit";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"webseiten-migration.md": {
+	id: "webseiten-migration.md";
+  slug: "webseiten-migration";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 
 	};
