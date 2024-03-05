@@ -5,97 +5,58 @@ pubDate: 'Mar 01 2024'
 heroImage: '/blog-placeholder-3.jpg'
 ---
 
-Technische Audits klingen vielleicht ein bisschen trocken, aber ich sage dir: Sie sind das Brot und die Butter der SEO-Welt. 
+Allein der Begriff lässt einen an Tabellen mit über 200 Analysepunkten denken, inklusive deren Auswirkungen und deinen Empfehlungen. Ich habe über 150 technische Audits mit solchen Checklisten durchgeführt, aber Kunden haben nur etwa fünf meiner Vorschläge wirklich umgesetzt. 
 
-Sagt man das im deutschen so? Naja, egal.
+Was sie interessiert, ist das Endergebnis.
 
-Stell dir vor, du bist ein Detektiv, der jede Ecke deiner Website unter die Lupe nimmt. 
+Warum? 
 
-Spannend, oder?
+Für jedes SEO-Team ist die Zustimmung zu gewinnen und schnell Ergebnisse zu liefern eine große Herausforderung. Viele Kunden bevorzugen bezahlte Werbung. Sie sehen die Investitionen in SEO und die benötigte Zeit als zu hoch an. Es ist wichtig, Kunden und interne Stakeholder über SEO aufzuklären. Eine Methode, schneller Zustimmung für SEO zu bekommen, ist der Einfluss den es haben kann.
 
-## Warum sind technische Audits wichtig?
+<a href="https://en.wikipedia.org/wiki/Website_audit">Technische Audits</a> basieren oft auf Checklisten. Sie enthalten viele Daten. Das führt zu Analyse-Lähmung und einem Mangel an umgesetzten Lösungen. Entscheidungsträger und Stakeholder interessieren sich mehr für Ergebnisse. Sie wollen nicht über Canonical-Tags oder einen Plan für 404-Fehler hören. 
 
-Deine Website muss blitzschnell und fehlerfrei sein. Warum? Weil Google und deine Nutzer das lieben. Ein technisches Audit hilft dir dabei genau das zu erreichen.
+Obwohl Checklisten für technische Audits wertvoll sind, werden sie oft übersehen.
 
-Tipps um das Ganze zu beschleunigen:
+Analyse-Lähmung bedeutet, dass man keine Entscheidung treffen kann. Zu viele Daten zu haben führt oft dazu. Ein Kunde sagte mir klar, dass zu viele Daten bedeuteten, keine Zeit für deren Analyse oder Umsetzung zu haben. Das passiert wenn man eine standardisierte Checkliste mit einigen Erklärungen übergibt.
 
-Jetzt zum spannenden Teil. Wie machst du diese Audits schneller und effektiver? Ich habe ein paar Tipps für dich:
+## Wie das SEO Audit beschleunigen
 
-## SEO-Werkzeuge
+Ich schlage einen anderen Ansatz vor. Erstelle einen Rahmen, der strategisch und umsatzorientiert ist. Dieser sollte auch lösungsorientiert sein. Beginne dein technisches Audit mit einem Hauptbericht. Das kann ein Google Slides-Dokument oder eine PowerPoint-Präsentation sein. Sie sollte die Hauptprobleme auflisten und gleichzeitig auf Lösungen hinweisen, die messbare Auswirkungen haben. Statt sich auf eine Flut von Daten zu konzentrieren, sammelt dieses Audit Elemente, die direkte Effekte zeigen und schnell zu Ergebnissen führen.
 
-SEO-Werkzeuge sind deine Freunde. Nutze SEO-Tools wie Screaming Frog oder SEMrush. Sie können dir helfen Probleme schneller zu finden.
+## Screaming Frog
 
-Diese Werkzeuge können wahre Lebensretter sein, wenn es darum geht, deine Website auf Hochglanz zu bringen. Sie sind nicht nur Werkzeuge; sie sind deine Verbündeten im Kampf um bessere Rankings und eine fehlerfreie Website. Hier erfährst du, wie du sie am besten nutzt:
+Eine effektive Möglichkeit, ein SEO-Audit zu beschleunigen, ist der Einsatz von Tools wie Screaming Frog. Dieses Tool scannt deine Website und zeigt dir genau, welche kritischen Fehler existieren. Stell dir vor, es ist wie ein Röntgengerät für deine Website, das in kurzer Zeit tief in die Struktur blickt und dir sofort sagt, was nicht stimmt. Das kann alles sein von fehlenden Titel-Tags über kaputte Links bis hin zu Problemen mit der Weiterleitung.
 
-### Screaming Frog
+![technisches seo audot beschleunigen mit screaming frog](../../images/screaming-frog.png)
 
-Screaming Frog ist ein Desktop-Programm, das deine gesamte Website crawlt, ähnlich wie ein Suchmaschinenbot. Es sammelt essentielle Daten zu jedem einzelnen Link, Bild, CSS, Script und Applet auf der Website.
+Indem du diese Fehler direkt ins SEO-Audit aufnimmst, kannst du den Prozess erheblich beschleunigen. Aber es geht nicht nur um Geschwindigkeit. Es geht auch darum, sich auf Effektivität zu konzentrieren. Mit den Erkenntnissen von Screaming Frog kannst du eine Prioritätenliste der zu behebenden Probleme erstellen. Das erlaubt dir und deinem Team, sich auf die Änderungen zu konzentrieren, die den größten Einfluss auf die SEO-Leistung deiner Website haben werden.
 
-Warum es so nützlich ist:
+Statt also jede einzelne Seite manuell zu überprüfen, ermöglicht dir ein Tool wie Screaming Frog, die wichtigsten SEO-Probleme schnell zu identifizieren und zu adressieren. Das macht dein Audit nicht nur schneller, sondern auch weitaus effektiver. Du zeigst damit, dass du dich auf die Maßnahmen konzentrierst, die wirklich zählen. So kannst du nicht nur Zeit sparen, sondern auch deutlich machen, dass dein Ansatz zielgerichtet und effizient ist. Das ist genau die Art von Effektivität, die Kunden und Stakeholder sehen wollen, wenn sie in SEO investieren.
 
-Fehlererkennung: Screaming Frog kann dir helfen, 404-Fehler, fehlerhafte Umleitungen und Probleme mit dem Titel-Tag schnell zu finden.
-
-Inhaltsanalyse: Es überprüft doppelte Inhalte, fehlende Alt-Texte bei Bildern und gibt dir einen Überblick über deine Meta-Daten.
-
-Strukturverständnis: Du kannst die Architektur deiner Website analysieren, um sicherzustellen, dass sie logisch und effizient aufgebaut ist.
-
-Tipp: Nutze die Visualisierungsfunktionen von Screaming Frog, um ein klares Bild der Website-Struktur zu erhalten. Es kann dir zeigen, wie deine Seiten miteinander verknüpft sind, was bei der Optimierung der internen Verlinkung sehr hilfreich ist.
-
-### SEMrush
-Was es ist: SEMrush ist eine mächtige Online-Plattform, die dir Einblicke in deine SEO, Werbung, Content, und SMM gibt. Es ist ein umfassendes Tool, das nicht nur technische SEO-Audits ermöglicht, sondern auch Wettbewerbsanalyse, Keyword-Recherche und vieles mehr.
-
-Warum es so nützlich ist:
-
-On-Page SEO: SEMrush analysiert die Gesundheit deiner Website und identifiziert technische Probleme sowie On-Page SEO-Chancen.
-Backlink-Analyse: Du kannst sehen, von wo Links kommen und wie die Qualität dieser Links ist, was für die Off-Page SEO enorm wichtig ist.
-Wettbewerbsanalyse: Es ermöglicht dir, die Strategien deiner Konkurrenten zu verstehen, von ihren Backlinks bis zu ihren Google Ads.
-Tipp: Nutze den SEMrush SEO Content Template, um Inhalte zu erstellen, die auf bestimmte Keywords optimiert sind. Es gibt dir Vorschläge basierend auf den Top 10 Google-Ergebnissen für deine Keywords.
-
-### Fazit
-Indem du diese Tools nutzt, kannst du nicht nur Zeit sparen, sondern auch tiefer in die technischen Aspekte deiner Website eintauchen. Sie bieten dir eine Fülle von Daten und Einsichten, die dir helfen, informierte Entscheidungen zu treffen und deine SEO-Strategie zu verfeinern. Denke daran, regelmäßige Audits durchzuführen und die Tools zu deinem Vorteil zu nutzen. Mit der Zeit wirst du nicht nur Verbesserungen in deinen Rankings sehen, sondern auch eine stärkere, gesündere Website aufbauen.
+## Interne Links 
 
 
-## Prioritäten
+Stell dir vor, du benutzt Screaming Frog und findest innerhalb von Minuten heraus, dass deine Website interne Links hat, die ins Leere führen – also zu 404-Seiten. Das ist ein klassisches Beispiel dafür, wie Screaming Frog das SEO-Audit beschleunigt und gleichzeitig die Qualität verbessert.
 
-Es ist leicht, sich in der Masse von Fehlern und Warnungen zu verlieren, die Tools wie Screaming Frog oder SEMrush ausspucken. Aber hier ist der Clou: Nicht alles benötigt sofortige Aufmerksamkeit. Konzentriere dich auf das Wesentliche, und du wirst einen klaren Weg durch das Chaos finden.
+Hier ist der Clou: Solche toten Links sind schlecht für die Nutzererfahrung und können deine SEO-Rankings negativ beeinflussen. Google und andere Suchmaschinen wollen Nutzern Inhalte präsentieren, die zugänglich und relevant sind. Links, die ins Nirgendwo führen, signalisieren das Gegenteil.
 
-Nutzererfahrung: Eine schnelle Seite bedeutet eine bessere Nutzererfahrung. Wenn deine Seite zu lange zum Laden braucht, springen Besucher ab. So einfach ist das.
+Mit Screaming Frog kannst du schnell alle internen Links aufspüren, die zu 404-Seiten führen. Das ist super praktisch, weil du dann nicht jede Seite deiner Website manuell durchforsten musst. Stattdessen liefert dir das Tool eine übersichtliche Liste der Probleme, die du angehen musst.
 
-Ranking-Faktor: Google hat offiziell bestätigt, dass die Ladegeschwindigkeit ein Ranking-Faktor ist. Schnellere Seiten werden bevorzugt.
+Das Tolle daran ist, dass die Behebung dieser Links oft schnell und unkompliziert ist. Du kannst entweder die defekten Links entfernen oder sie so aktualisieren, dass sie auf existierende Seiten verweisen. Das allein kann schon einen signifikanten Unterschied machen – sowohl für die Nutzererfahrung als auch für deine SEO.
 
-Konversionen: Studien zeigen, dass eine schnellere Website zu höheren Konversionsraten führt. Selbst eine Sekunde Verzögerung kann schaden.
-Wie du es angehst:
+Also, wenn du ein SEO-Audit durchführst, hilft dir ein Tool wie Screaming Frog, Zeit zu sparen und dich auf Korrekturen zu konzentrieren, die wirklich zählen. Du machst dein Audit effizienter und zeigst gleichzeitig, dass du proaktiv Probleme löst, die deine Website zurückhalten könnten. Es ist ein kluger Weg, um schnelle und effektive SEO-Erfolge zu erzielen.
 
-Bilder optimieren: Große Bilder sind oft die Hauptursache für langsame Ladegeschwindigkeiten. Nutze Tools zur Bildoptimierung, um die Dateigröße zu reduzieren, ohne die Qualität zu beeinträchtigen.
-
-Caching nutzen: Durch das Caching können wiederkehrende Besucher deine Seite schneller laden, da bestimmte Elemente bereits im Browser gespeichert sind.
-
-Content Delivery Network (CDN): Ein CDN speichert deine Seite auf Servern weltweit, sodass sie schneller zu Nutzern in verschiedenen geografischen Regionen gelangt.
-
-Weitere Prioritäten
-
-Nachdem du die Ladegeschwindigkeit angegangen bist, gibt es noch weitere Bereiche, die wichtig sind:
-
-Mobile Optimierung: Eine mobile-freundliche Website ist heutzutage ein Muss. Google bevorzugt mobile Seiten in den Suchergebnissen, besonders nach der Einführung des Mobile-First Indexing.
-
-Sicherheit: SSL-Zertifikate (HTTPS) sind nicht nur für E-Commerce-Sites wichtig. Google markiert nicht gesicherte Seiten als unsicher, was das Vertrauen der Besucher und dein Ranking beeinträchtigen kann.
-
-Inhaltsqualität: Stelle sicher, dass deine Inhalte hochwertig, relevant und keyword-optimiert sind. Guter Content ist immer noch König.
-
-Fazit
-
-Beim technischen SEO kommt es darauf an, klug zu wählen, worauf man sich konzentriert. Indem du die Ladegeschwindigkeit, mobile Optimierung und Sicherheit priorisierst, legst du ein solides Fundament für deine SEO-Bemühungen. Erinnere dich, dass technische SEO eine fortlaufende Aufgabe ist. Bleibe dran, halte deine Website auf dem neuesten Stand, und du wirst die Früchte deiner Arbeit in Form von besserem Ranking, mehr Traffic und höheren Konversionsraten ernten.
+### Schnelles SEO Audit mit dem Site-Befehl
 
 
-Automatisierung ist der Schlüssel. Wo immer möglich, automatisiere. Das spart dir Zeit und Kopfschmerzen.
+Ein anderer cleverer Weg, um ein schnelles SEO-Audit durchzuführen, ist die Verwendung des "site:"-Befehls in Google. Einfach "site:website.com" in die Google-Suche eingeben. Was du damit bekommst, ist eine Liste aller Seiten deiner Website, die im Google-Index sind. Das ist wie eine Momentaufnahme dessen, was Google über deine Website weiß und welche Seiten es den Nutzern anzeigt.
 
-Bleib organisiert. Erstelle Checklisten und halte dich an einen Plan. So verlierst du nie den Überblick.
+Warum ist das nützlich? Nun, es gibt dir einen schnellen Überblick darüber, welche Seiten von deiner Website im Index sind. Manchmal findest du Seiten, die eigentlich gar nicht im Index sein sollten. Das können alte Aktionsseiten sein, temporäre Landingpages oder Seiten mit veraltetem oder dünnem Inhalt. Solche Seiten können das Gesamtbild deiner Website in den Augen von Google verwässern.
 
-Wissen ist Macht. Bleib immer auf dem Laufenden über SEO-Praktiken. Die digitale Welt verändert sich schnell!
+Indem du solche Seiten identifizierst, kannst du gezielte Maßnahmen ergreifen, um sie aus dem Index zu entfernen oder zu aktualisieren, sodass sie wertvollen Inhalt bieten. Das Entfernen oder De-Indexieren nicht hilfreicher Seiten kann dabei helfen, die SEO-Leistung deiner Kernseiten zu verbessern. Google sieht dann eher die Inhalte, die du wirklich hervorheben möchtest.
 
-Fazit
+Das Schöne an dieser Methode ist, dass sie schnell und einfach ist. Du brauchst keine speziellen Tools oder tiefgehende technische Kenntnisse. Es gibt dir einen schnellen Einblick in deine Sichtbarkeit in der Suche und ermöglicht es dir, proaktive Schritte zur Verbesserung deines SEO zu unternehmen.
 
-Technische Audits müssen nicht langwierig sein. Mit den richtigen Werkzeugen und einer klaren Strategie kannst du sie schnell und effektiv durchführen. Und denk dran, du machst das nicht nur für Google. Eine schnelle, fehlerfreie Website ist ein Geschenk an deine Nutzer. Und zufriedene Nutzer? Die sind Gold wert.
+Also, wenn du ein SEO-Audit mit sofortigen Einblicken und schnellen Ergebnissen durchführen möchtest, vergiss nicht, diesen Trick mit dem "site:"-Befehl zu nutzen. Es ist eine einfache, aber effektive Strategie, um sicherzustellen, dass Google nur das Beste von deiner Website präsentiert bekommt.
 
-Also, pack es an! Nutze diese Tipps, um deine Website auf Vordermann zu bringen. Du wirst sehen, es lohnt sich.
-
+## Fazit
