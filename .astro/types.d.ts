@@ -141,21 +141,28 @@ declare module 'astro:content' {
   slug: "seo-tipps-2024";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 "technisches-seo-audit.md": {
 	id: "technisches-seo-audit.md";
   slug: "technisches-seo-audit";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
+} & { render(): Render[".md"] };
+"tools-domainanalyse.md": {
+	id: "tools-domainanalyse.md";
+  slug: "tools-domainanalyse";
+  body: string;
+  collection: "blog";
+  data: any
 } & { render(): Render[".md"] };
 "webseiten-migration.md": {
 	id: "webseiten-migration.md";
   slug: "webseiten-migration";
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -167,5 +174,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }
