@@ -20,9 +20,18 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+			<div class="face">
+				<img id="face" src="/lukasz-seo-stuttgart.png" alt="lukasz seo für stuttgart">
+				</div>
 			<h1>SEO Freelancer Stuttgart</h1>
 			<p>
-			Willkommen bei Ihrem SEO Freelancer in Stuttgart! Suchen Sie einen SEO Freelancer in Stuttgart, 
+			Willkommen bei Ihrem SEO Freelancer in Stuttgart! 
+			Mein Name ist Lukasz und ich betreibe seit nun mehr als 8 Jahren SEO. 
+			Ob Blogs, lokale Geschäfte oder Events, ich helfe Ihnen organischen Traffic zu generieren. 
+
+			
+			<br><br>
+			Suchen Sie einen SEO Freelancer in Stuttgart, 
 			der Ihre Website zum Glänzen bringt? Glückwunsch, Sie sind am richtigen Ort! Als erfahrener SEO Freelancer 
 			in Stuttgart biete ich Ihnen maßgeschneiderte Lösungen, um Ihre Online-Präsenz zu optimieren 
 			und Ihre Sichtbarkeit zu erhöhen. In der Welt des Internets ist es entscheidend, 
@@ -31,11 +40,12 @@ const posts = (await getCollection('blog')).sort(
 			Hier komme ich ins Spiel: Ich entwickle individuelle SEO-Strategien, 
 			die genau auf Ihre Bedürfnisse und Ziele zugeschnitten sind. Von der On-Page-Optimierung, 
 			also der Verbesserung Ihrer Webseite selbst, bis hin zur Off-Page-Optimierung, um Ihre 
-			Autorität im Netz zu stärken, decke ich alles ab. 
+			Autorität im Netz zu stärken. Ich decke ich alles ab. 
 			<br><br>
 			Besonders hervorheben möchte ich die lokale 
-			SEO für Stuttgart. Wenn Stuttgart Ihr Markt ist, dann ist es entscheidend, dass Sie bei 
+			SEO für Stuttgart. Wenn Stuttgart Ihr Markt ist dann ist es entscheidend, dass Sie bei 
 			lokalen Suchanfragen ganz vorne stehen. Hier setze ich an, um Ihre Präsenz in Stuttgart zu maximieren.
+	
 			</p>
 
 			<img src="/seo-freelancer-stuttgart.webp" alt="seo freelancer stuttgart">
@@ -74,12 +84,12 @@ const posts = (await getCollection('blog')).sort(
 
 
 			<h2>Schick mir direkt eine Nachricht</h2>
-			<p>Kontaktieren Sie mich noch heute und lassen Sie uns gemeinsam Ihre Online-Präsenz in Stuttgart stärken. Als Ihr SEO Freelancer in Stuttgart bin ich hier, um Ihnen zu helfen, online erfolgreich zu sein. Lassen Sie uns dieses Abenteuer zusammen starten!		</p>
+			<p>Kontaktieren Sie mich noch heute und lassen Sie uns gemeinsam Ihre Online-Präsenz in Stuttgart stärken. Als Ihr SEO Freelancer in Stuttgart bin ich hier, um Ihnen zu helfen online erfolgreich zu sein. Lassen Sie uns dieses Abenteuer zusammen starten!		</p>
 			<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
 				<input type="text" name="name" placeholder="Name" required>
 				<input type="email" name="email" placeholder="Email" required>
 				<textarea name="message" placeholder="Your Message" required></textarea>
-				<button type="submit">Send</button>
+				<button type="submit">Senden</button>
 		   </form>
 	
 		   <br>
@@ -234,5 +244,17 @@ textarea {
 textarea:focus {
     border-color: #4CAF50; /* Highlighted border color */
     box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
+}
+
+.face {
+	text-align: center;
+}
+
+#face {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 12px 0;
+	display: inline-block;
 }
 </style>

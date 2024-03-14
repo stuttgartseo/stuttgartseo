@@ -5,7 +5,11 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="logo">
+			<img src="/logo.webp" alt="logo" width="40px">
+			<h2><a href="/">{SITE_TITLE}</a></h2>
+		</div>
+
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/about">Über Mich</HeaderLink>
@@ -42,6 +46,11 @@ import { SITE_TITLE } from '../consts';
 	nav a.active {
 		text-decoration: none;
 		border-bottom-color: var(--accent);
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
 	}
 	.social-links,
 	.social-links a {
