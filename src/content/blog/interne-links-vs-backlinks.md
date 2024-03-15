@@ -25,7 +25,13 @@ Zum Schluss noch ein wichtiger Tipp: Übertreib es nicht. Jeder Link sollte Sinn
 
 Jetzt geht's um <a href="https://de.wikipedia.org/wiki/Hyperlink" target="_blank">Backlinks</a>, also quasi die andere Seite der Medaille. Stell dir vor, jemand anderes findet, was du geschrieben oder gemacht hast, so gut, dass er auf seiner eigenen Webseite einen Link zu dir setzt. Das ist ein Backlink. Einfach ausgedrückt, wenn andere Webseiten auf deine verlinken, hast du einen Backlink ergattert.
 
-Hier kommt der spannende Teil: Suchmaschinen lieben Backlinks. Warum? Sie sehen sie als eine Art Empfehlung. Denk mal so: Wenn viele Leute auf dich zeigen und sagen, "Hey, schau dir das an!", dann muss da ja was dran sein, oder? Genau so ticken Suchmaschinen auch. Eine Seite mit vielen hochwertigen Backlinks wird oft als vertrauenswürdiger und relevanter angesehen. Das kann helfen, in den Suchergebnissen weiter oben zu landen.
+Hier kommt der spannende Teil. 
+
+Suchmaschinen lieben Backlinks. 
+
+Warum? 
+
+Sie sehen sie als eine Art Empfehlung. Denk mal so: Wenn viele Leute auf dich zeigen und sagen, "Hey, schau dir das an!", dann muss da ja was dran sein, oder? Genau so ticken Suchmaschinen auch. Eine Seite mit vielen hochwertigen Backlinks wird oft als vertrauenswürdiger und relevanter angesehen. Das kann helfen, in den Suchergebnissen weiter oben zu landen.
 
 Aber Achtung, Qualität zählt mehr als Quantität. Nicht jeder Backlink ist gleich viel wert. Links von seriösen, themenrelevanten Seiten können dein Ranking richtig pushen. Aber Links von zweifelhaften Quellen? Die können mehr schaden als nützen.
 
