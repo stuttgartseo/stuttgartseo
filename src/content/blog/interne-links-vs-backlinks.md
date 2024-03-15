@@ -11,9 +11,9 @@ Eine Schlüsselstrategie ist das geschickte Management von Backlinks und interne
 
 ## Was sind interne Links?
 
-Du kennst das sicher: Du bist auf einer Webseite und siehst einen Link. Klickst du drauf, bleibst du auf derselben Seite, landest aber bei einem anderen Inhalt. Genau das sind interne Links. Sie verbinden verschiedene Seiten derselben Webseite miteinander.
+Du kennst das sicher. Du bist auf einer Webseite und siehst einen Link. Klickst du drauf, bleibst du auf derselben Seite, landest aber bei einem anderen Inhalt. Genau das sind interne Links. Sie verbinden verschiedene Seiten derselben Webseite miteinander.
 
-Hier ist der Clou: Interne Links sind nicht nur für die Nutzer super praktisch, weil sie leicht von A nach B kommen. Sie helfen auch den Suchmaschinen zu verstehen, wie die Inhalte auf deiner Seite zusammenhängen. Stell dir das wie ein Spinnennetz vor. Je besser das Netz geknüpft ist, desto einfacher finden Suchmaschinen und Besucher ihre Wege.
+Interne Links sind nicht nur für die Nutzer super praktisch, weil sie leicht von A nach B kommen. Sie helfen auch den Suchmaschinen zu verstehen, wie die Inhalte auf deiner Seite zusammenhängen. Stell dir das wie ein Spinnennetz vor. Je besser das Netz geknüpft ist, desto einfacher finden Suchmaschinen und Besucher ihre Wege.
 
 Du willst, dass deine Webseite gut gefunden wird, oder? Dann nutze interne Links. Sie sind wie Wegweiser, die zeigen: Hier geht’s lang! Sie bauen eine Struktur auf deiner Seite auf, die Suchmaschinen und Nutzern hilft, sich zurechtzufinden.
 
