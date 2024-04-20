@@ -5,9 +5,9 @@ pubDate: 'Mar 13 2024'
 heroImage: '/blog-placeholder-5.jpg'
 ---
 
-Eenn du tief in die SEO-Welt eintauchen möchtest, sind Tools die deine Domain analysieren absolut unverzichtbar. 
+Wenn du tief in die SEO-Welt eintauchen möchtest, sind Tools die deine Domain analysieren absolut unverzichtbar. 
 
-Sie geben dir Einblicke die du sonst nirgendwo bekommst. Hier sind einige der besten SEO-Tools, die du dir nicht entgehen lassen solltest. Jedes hat seine eigenen Stärken also schau, was am besten zu deinen Bedürfnissen passt:
+Sie geben dir Einblicke die du sonst nirgendwo bekommst. Hier sind einige der besten SEO-Tools, die du dir nicht entgehen lassen solltest. Jedes hat seine eigenen Stärken also schau, was am besten zu deinen Bedürfnissen passt.
 
 ## Google Search Console
 
@@ -15,6 +15,8 @@ Sie geben dir Einblicke die du sonst nirgendwo bekommst. Hier sind einige der be
 
 
 Mit <a href="https://search.google.com/search-console">Google Search Console</a> kannst du deine Domain analysieren, inklusive der Überprüfung deiner Keyword-Rankings. Dieses Tool gibt dir direkten Einblick in das, was Google über deine Website sieht. Du kannst sehen, welche Seiten indexiert sind, ob es irgendwelche Probleme mit der Crawling gibt und wie deine Seiten in den Suchergebnissen abschneiden.
+
+Ich nutze dieses Tool sehr oft, wenn ich mit <a href="/">meinen SEO Kunden aus Stuttgart</a> arbeite.
 
 Es ermöglicht dir auch, die Leistung deiner Keywords zu verstehen, indem es zeigt, bei welchen Suchanfragen deine Seite erscheint, wie oft darauf geklickt wurde und auf welcher Position sie im Durchschnitt rankt. Das Tolle daran ist, dass diese Daten direkt von Google kommen, also kannst du sicher sein, dass sie genau sind.
 
