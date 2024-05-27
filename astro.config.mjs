@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://stuttgartseo.github.io/',
+	site: 'http://freelancerstuttgart.de/',
 	integrations: [mdx(), sitemap()],
 });
