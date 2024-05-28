@@ -4,6 +4,6 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://freelancerstuttgart.github.io/',
+	site: 'https://preeminent-basbousa-fd0aa7.netlify.app',
 	integrations: [mdx()],
 });
