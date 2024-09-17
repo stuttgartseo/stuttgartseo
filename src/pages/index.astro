@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Service from '../components/Service.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
@@ -33,21 +34,8 @@ const posts = (await getCollection('blog')).sort(
 			Gerne kannst Du auch das Kontaktformular unten nutzen. Alle Anfragen sind selbstverständlich unverbindlich.
 		
 
-	
-		<div class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden">
-			<div class="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative">
-					<span>icon</span>
-			</div>
-			<div class="mt-6 space-y-4 relative">
-				<h2 class="text-lg md:text-xl font-semibold text-heading-2">
-					Hello
-				</h2>
-				<p>dscr</p>
-			</div>
-			<span class="absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full"></span>
-		</div>
+			<Service />
 			
-			<br><br>
 			<h2>Wie ich Dir helfen kann?</h2>
 			Die Chancen sind sehr groß, dass Du mich über Google gefunden hast. Genau damit kann ich Dir helfen.
 			Suchst Du einen SEO Freelancer in Stuttgart damit Deine Website mehr organischen Traffic erhält? 
@@ -315,4 +303,32 @@ textarea:focus {
 	margin: 12px 0;
 	display: inline-block;
 }
+
+
+
+.container {
+	.container {
+			width: 100%; /* Change from 80% to 100% */
+			margin: 0; /* Remove the margin */
+			padding: 0 10px; /* Optional: add some padding to the sides if needed */
+		}
+
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .service h2 {
+            margin-top: 0;
+        }
 </style>
