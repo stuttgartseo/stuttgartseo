@@ -21,21 +21,24 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+
 			<div class="face">
 				<img id="face" src="/lukasz-seo-stuttgart.webp" alt="lukasz seo für stuttgart">
-				</div>
+			</div>
+
 			<h1>SEO Freelancer Stuttgart</h1>
 			<p>
 
 			Willkommen bei Deinem SEO Freelancer in Stuttgart! Mein Name ist Lukasz und ich betreibe seit nun mehr als 8 Jahren SEO. Ob Blogs, lokale Geschäfte oder Events, ich helfe Dir organischen Traffic zu generieren. 
 			Wenn Du magst, ruf mich einfach direkt an und wir besprechen alles. 
-			<br><br>
+
 			Du kannst mich ganz einfach erreichen unter der <strong>0162 751 9335</strong>, oder mir direkt eine Mail schreiben unter <strong>kontakt@uxffm.com</strong>.
 			Gerne kannst Du auch das Kontaktformular unten nutzen. Alle Anfragen sind selbstverständlich unverbindlich.
-		
+		</main>
 
 			<Service />
 			
+		<main>
 			<h2>Wie ich Dir helfen kann?</h2>
 			Die Chancen sind sehr groß, dass Du mich über Google gefunden hast. Genau damit kann ich Dir helfen.
 			Suchst Du einen SEO Freelancer in Stuttgart damit Deine Website mehr organischen Traffic erhält? 
@@ -126,7 +129,7 @@ const posts = (await getCollection('blog')).sort(
 			
 			<br>
 
-			<h2>Und nun? Schick mir direkt eine Nachricht. Ja?</h2>
+			<h2 id="kontakt">Und nun? Schick mir direkt eine Nachricht.</h2>
 			<p>
 			Egal ob Stuttgart-Mitte, Stuttgart-West, Stuttgart-Ost, Stuttgart-Süd, Bad Cannstatt, Feuerbach, <a href="https://de.wikipedia.org/wiki/Vaihingen_(Stuttgart)" target="_blank">Vaihingen</a> oder Zuffenhausen – ich helfe dir mit meiner SEO. Wenn du lokal in Stuttgart und Umgebung gefunden werden möchtest, bin ich dein Ansprechpartner.	
 			Kontaktiere mich noch heute und lass uns gemeinsam Deine Online-Präsenz in Stuttgart stärken. Als Dein SEO Freelancer helfe ich dir ohne unnötige Kosten. Lass uns zusammen starten!</p>
@@ -306,29 +309,4 @@ textarea:focus {
 
 
 
-.container {
-	.container {
-			width: 100%; /* Change from 80% to 100% */
-			margin: 0; /* Remove the margin */
-			padding: 0 10px; /* Optional: add some padding to the sides if needed */
-		}
-
-        }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .service {
-            flex: 1;
-            min-width: 200px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .service h2 {
-            margin-top: 0;
-        }
 </style>
