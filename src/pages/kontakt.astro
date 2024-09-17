@@ -1,0 +1,39 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Form from '../components/Form.astro';
+import Footer from '../components/Footer.astro';
+import Button from '../components/Button.astro';
+import Service from '../components/Service.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+---
+
+<!doctype html>
+<html lang="de">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+
+		</main>
+
+			
+		<Form text="Ich meld mich innerhalb kürzester Zeit zurück. Schreib mir gerne alle Details über Dein Projekt. Ich bin gespannt auf Deine Ideen und stehe bereit um alles zu besprechen. Wenn Du Fragen hast oder zusätzliche Infos brauchst, lass es mich wissen. Du kannst mich auch gerne direkt anrufen, wenn es schneller gehen soll 0162 751 9335. Ich freue mich darauf, von Dir zu hören und gemeinsam an Deinem Projekt zu arbeiten." />
+			
+		
+
+		</main>
+		<Footer />
+	</body>
+</html>
+
+
+

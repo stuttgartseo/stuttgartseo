@@ -4,61 +4,104 @@ import { SITE_TITLE } from '../consts';
 ---
 
 <header>
-	<nav>
-		<div class="logo">
-			<img src="/logo.webp" alt="logo" width="40px">
-			<h2><a href="/">{SITE_TITLE}</a></h2>
-		</div>
+    <nav>
+        <div class="logo">
+            <img src="/logo.webp" alt="logo" width="40px">
+            <h2><a href="/">{SITE_TITLE}</a></h2>
+        </div>
 
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/about">Über Mich</HeaderLink>
-		</div>
-	</nav>
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+
+        <div class="internal-links">
+            <HeaderLink href="/">Home</HeaderLink>
+            <HeaderLink href="/about">Über Mich</HeaderLink>
+			<HeaderLink href="/kontakt">Kontakt</HeaderLink>
+        </div>
+    </nav>
 </header>
+
 <style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
+    header {
+        margin: 0;
+        padding: 0 1em;
+        background: white;
+        box-shadow: 0 2px 8px rgba(var(--black), 5%);
+    }
+    h2 {
+        margin: 0;
+        font-size: 1em;
+    }
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
+    h2 a,
+    h2 a.active {
+        text-decoration: none;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    nav a {
+        padding: 1em 0.5em;
+        color: var(--black);
+        border-bottom: 4px solid transparent;
+        text-decoration: none;
+    }
+    nav a.active {
+        text-decoration: none;
+        border-bottom-color: var(--accent);
+    }
 
-	.logo {
-		display: flex;
-		align-items: center;
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-	}
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    .internal-links {
+        display: flex;
+    }
+
+    @media (max-width: 720px) {
+
+		header {
+        margin: 0;
+        padding: 1em 1em; }
+
+        .internal-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(var(--black), 5%);
+            padding: 1em;
+        }
+        .internal-links.open {
+            display: flex;
+        }
+        .menu-toggle {
+            display: block;
+        }
+        nav a.active {
+            border-bottom: none; /* Hide active underline on mobile */
+        }
+    }
 </style>
+
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        const links = document.querySelector('.internal-links');
+        links.classList.toggle('open');
+    });
+</script>
