@@ -1,0 +1,111 @@
+---
+---
+
+<div class="container">
+    <div class="wrapper_container">
+
+        <!-- Full-width section with grey background, wrapping the heading, paragraph, and form -->
+        <section class="grey-background">
+            <div class="grey-content-wrapper">
+                <h2 id="kontakt">Schick mir hier direkt eine Nachricht. Ganz unverbindlich.</h2>
+                <p>
+                    Egal ob Stuttgart-Mitte, Stuttgart-West, Stuttgart-Ost, Stuttgart-Süd, Bad Cannstatt, Feuerbach, <a href="https://de.wikipedia.org/wiki/Vaihingen_(Stuttgart)" target="_blank">Vaihingen</a> oder Zuffenhausen – ich helfe Dir mit meinem SEO Service. 
+                    Wenn Du lokal in Stuttgart und Umgebung gefunden werden möchtest, bin ich der richtige Ansprechpartner.	
+                    Kontaktiere mich noch heute und lass uns gemeinsam Deine Online-Präsenz in Stuttgart stärken. Als Dein SEO Freelancer helfe ich dir ohne unnötige Kosten. Lass uns zusammen starten!
+                </p>
+                <form name="contact" netlify>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Deine Nachricht" required></textarea>
+                    <button type="submit">Senden</button>
+                </form>
+            </div>
+        </section>
+
+    </div><!---wrapper container -->
+</div>
+
+<style>
+
+.container {
+    width: 720px;
+    max-width: calc(100% - 2em);
+    margin: auto;
+    padding: 3em 1em;
+}
+
+.wrapper_container {
+    padding: 20px;
+}
+
+/* Full-width grey background for the section */
+.grey-background {
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Offset to align with full viewport width */
+    background-color: #f7f8fb; /* Light grey background */
+    padding: 80px 0; /* Padding for the section */
+}
+
+/* Wrapper inside the grey background to contain the text and form */
+.grey-content-wrapper {
+    max-width: 820px; /* Same max width as the rest of your layout */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Add padding for smaller screens */
+}
+
+/* Styling for the form */
+form {
+    max-width: 820px; /* Limit form width to match the container */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white; /* White background for the form */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"] {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: system-ui, sans-serif;
+}
+
+/* Styling for the submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2337ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4453fd;
+}
+
+/* Styling for the textarea */
+textarea {
+    font-size: 18px;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 100px;
+    resize: vertical;
+    font-family: system-ui, sans-serif;
+}
+
+textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+</style>

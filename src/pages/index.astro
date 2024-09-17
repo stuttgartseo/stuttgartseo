@@ -1,7 +1,9 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
+import Form from '../components/Form.astro';
 import Footer from '../components/Footer.astro';
+import Button from '../components/Button.astro';
 import Service from '../components/Service.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
@@ -31,9 +33,14 @@ const posts = (await getCollection('blog')).sort(
 
 			Willkommen bei Deinem SEO Freelancer in Stuttgart! Mein Name ist Lukasz und ich betreibe seit nun mehr als 8 Jahren SEO. Ob Blogs, lokale Geschäfte oder Events, ich helfe Dir organischen Traffic zu generieren. 
 			Wenn Du magst, ruf mich einfach direkt an und wir besprechen alles. 
-
+			<br><br>
 			Du kannst mich ganz einfach erreichen unter der <strong>0162 751 9335</strong>, oder mir direkt eine Mail schreiben unter <strong>kontakt@uxffm.com</strong>.
 			Gerne kannst Du auch das Kontaktformular unten nutzen. Alle Anfragen sind selbstverständlich unverbindlich.
+
+			<a href="#kontakt">
+			<Button label="Jetzt unverbindlich SEO anfragen" />
+			</a>
+
 		</main>
 
 			<Service />
@@ -51,15 +58,21 @@ const posts = (await getCollection('blog')).sort(
 	
 			</p>
 
+			<hr>
+
 			<img src="/seo-freelancer-stuttgart.webp" alt="seo freelancer stuttgart">
 
 			<h2>Warum solltest Du sich für mich als Deinen SEO Freelancer in Stuttgart entscheiden?</h2>
 
-			<p>Ganz einfach: Bei mir erhälst Du persönlichen Service, der genau auf Deine Bedürfnisse zugeschnitten ist. Ich arbeite transparent, sodass Du jederzeit Einblick in meine Methoden und die erzielten Ergebnisse hast. Mit meiner langjährigen Erfahrung im SEO-Bereich und meiner speziellen Kenntnis des Stuttgarter Marktes bin ich Dein idealer Partner.</p>
+			<p>Ganz einfach. Bei mir erhälst Du persönlichen Service, der genau auf Deine Bedürfnisse zugeschnitten ist. Ich arbeite transparent, sodass Du jederzeit Einblick in meine Methoden und die erzielten Ergebnisse hast. Mit meiner langjährigen Erfahrung im SEO-Bereich und meiner speziellen Kenntnis des Stuttgarter Marktes bin ich Dein idealer Partner.</p>
 			
-			<h2>Bist Du bereit Deine Website auf das nächste Level zu heben?</h2>
-
 			<br>
+			<hr>
+			<br>
+
+			<h2>Meine Aufgaben als SEO Freelancer</h2>
+			<br>
+		
 
 			<h3>Analyse und Strategieentwicklung</h3>
 
@@ -125,23 +138,9 @@ const posts = (await getCollection('blog')).sort(
 
 			<p>Die SEO-Wettbewerbsanalyse beinhaltet das Untersuchen der Strategien deiner am besten platzierten Konkurrenten in den Suchmaschinenergebnissen. Dabei identifizieren wir zusammen deren Stärken und Schwächen, um unsere SEO-Strategie entsprechend anzupassen und zu verbessern. Das hilft zu verstehen was deiner Seite fehlt und was nicht.</p>
 	
-	
+			<Form />
 			
-			<br>
-
-			<h2 id="kontakt">Und nun? Schick mir direkt eine Nachricht.</h2>
-			<p>
-			Egal ob Stuttgart-Mitte, Stuttgart-West, Stuttgart-Ost, Stuttgart-Süd, Bad Cannstatt, Feuerbach, <a href="https://de.wikipedia.org/wiki/Vaihingen_(Stuttgart)" target="_blank">Vaihingen</a> oder Zuffenhausen – ich helfe dir mit meiner SEO. Wenn du lokal in Stuttgart und Umgebung gefunden werden möchtest, bin ich dein Ansprechpartner.	
-			Kontaktiere mich noch heute und lass uns gemeinsam Deine Online-Präsenz in Stuttgart stärken. Als Dein SEO Freelancer helfe ich dir ohne unnötige Kosten. Lass uns zusammen starten!</p>
-			<form name="contact" netlify>
-				<input type="text" name="name" placeholder="Name" required>
-				<input type="email" name="email" placeholder="Email" required>
-				<textarea name="message" placeholder="Deine Nachricht" required></textarea>
-				<button type="submit">Senden</button>
-		   </form>
-	
-		   <br>
-
+		
 			<section>
 
 			<h2>Meine Blogartikel:</h2>
@@ -236,64 +235,6 @@ const posts = (await getCollection('blog')).sort(
 		}
 	}
 
-		/* Overall form styling */
-form {
-    max-width: 100%; /* Sets a maximum width */
-    margin: 0 auto; /* Centers the form on the page */
-    padding: 20px; /* Adds some space inside the form */
-    border-radius: 8px; /* Rounded corners */
-}
-
-/* Styling for input fields */
-input[type="text"],
-input[type="email"] {
-    width: 97%; /* Full width */
-    padding: 10px; /* Comfortable text padding */
-    margin-bottom: 15px; /* Space between fields */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 4px; /* Slightly rounded corners */
-	font-size: 18px;
-	font-family: system-ui, sans-serif;
-}
-
-
-
-/* Styling for the submit button */
-button {
-    width: 100%; /* Full width */
-    padding: 10px; /* Same padding as input fields */
-    background-color: #8e44eb; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 4px; /* Slightly rounded corners */
-    cursor: pointer; /* Cursor changes to pointer */
-    font-size: 16px; /* Larger text size */
-}
-
-/* Change button style on hover */
-button:hover {
-    background-color: #ba91f2; /* Slightly darker green on hover */
-}
-
-/* Styling for the textarea */
-textarea {
-	font-size: 18px;
-    width: 97%; /* Full width to match the input fields */
-    padding: 10px; /* Comfortable padding */
-    margin-bottom: 15px; /* Space below the textarea */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 4px; /* Rounded corners */
-    min-height: 100px; /* Minimum height */
-    resize: vertical; /* Allow vertical resizing only */
-	font-family: system-ui, sans-serif;
-}
-
-/* Change textarea style on focus */
-textarea:focus {
-    border-color: #4CAF50; /* Highlighted border color */
-    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
-}
-
 .face {
 	text-align: center;
 }
@@ -306,6 +247,9 @@ textarea:focus {
 	margin: 12px 0;
 	display: inline-block;
 }
+
+
+
 
 
 
